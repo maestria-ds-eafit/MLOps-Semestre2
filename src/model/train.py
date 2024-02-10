@@ -9,7 +9,7 @@ from src.Classifier import Classifier
 import os
 import argparse
 import wandb
-from data.constants import project_name
+from constants import project_name
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--IdExecution", type=str, help="ID of the execution")
