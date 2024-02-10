@@ -222,7 +222,7 @@ def evaluate_and_log(
 ):
 
     with wandb.init(
-        project="MLOps-Pycon2023",
+        project=project_name,
         name=f"Eval Model ExecId-{args.IdExecution} ExperimentId-{experiment_id}",
         job_type="eval-model",
         config=config,
